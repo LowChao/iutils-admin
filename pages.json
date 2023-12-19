@@ -1,0 +1,113 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/common/start",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "启动页",
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"topWindow": false,
+				"leftWindow": false
+		    }
+		}
+	    ,{
+            "path" : "pages/common/404",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "404",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/common/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户登录",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"topWindow": false,
+				"leftWindow": false
+            }
+        }
+        ,{
+            "path" : "pages/module/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "模块列表",
+                "enablePullDownRefresh": false,
+        		"navigationStyle": "custom"
+            }
+        },{
+            "path" : "pages/module/aore",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增/编辑模块",
+                "enablePullDownRefresh": false,
+        		"navigationStyle": "custom"
+            }
+        },{
+            "path" : "pages/module/addM",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "快捷新增模块",
+                "enablePullDownRefresh": false,
+        		"navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/core/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "列表",
+                "enablePullDownRefresh": false,
+        		"navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/core/aore",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增/编辑",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/core/tree",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "树",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "低代码开发平台",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#f5f5f5"
+	},
+	"topWindow": {
+	    "path": "pages/common/topNav.vue",
+	    "style": {
+	      "height": "60px"
+	    },
+		"matchMedia": {
+			"minWidth": 0
+		}
+	},
+	"leftWindow": {
+	    "path": "pages/common/leftMenu.vue",
+	    "style": {
+	      "width": "200px",
+		  "flex-shrink": 0
+	    },
+		"matchMedia": {
+			"minWidth": 0
+		}
+	},
+	"uniIdRouter": {}
+}
